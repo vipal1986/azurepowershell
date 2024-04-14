@@ -1,3 +1,7 @@
+#connect to Azure
+
+Connect-AzAccount
+
 #create a resource group
 $resourcegroupname = "powershell-rg"
 $location = "East US"
